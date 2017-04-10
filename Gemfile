@@ -17,6 +17,7 @@ gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
+  gem 'better_errors'
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
 end
